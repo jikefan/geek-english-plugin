@@ -1,0 +1,29 @@
+{
+  "name": "GeekEnglish",
+  "version": "1.0.0",
+  "description": "综合平台的英语学习软件",
+  "main": "index.js",
+  "author": "jikefan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite build --mode developmemnt",
+    "build": "vite build",
+    "serve": "vite preview",
+    "watch": "vite build --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.245",
+    "@types/node": "^20.6.0",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/compiler-sfc": "^3.3.4",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-chrome-extension": "^0.0.7",
+    "vue-tsc": "^1.8.10"
+  },
+  "dependencies": {
+    "ant-design-vue": "4.x",
+    "js-md5": "^0.7.3",
+    "vue": "^3.3.4"
+  }
+}
